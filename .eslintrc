@@ -1,3 +1,15 @@
 {
-  "extends": "react-app"
+  "parser": "babel-eslint",
+  "extends": [
+    "react-app",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+    ],
+  "plugins": ["react", "jsx-a11y"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
 }
