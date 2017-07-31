@@ -11,8 +11,19 @@ class App extends Component {
                     <h2>Welcome to new fed world!</h2>
                 </div>
                 <p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to
-                    reload.
+                    Fusce eu magna in quam congue laoreet. In eget felis
+                    malesuada, iaculis quam sit amet, cursus justo. Sed et
+                    tempus justo, et dictum mauris. Phasellus volutpat ipsum
+                    ligula, ac interdum libero commodo eu. Maecenas eleifend
+                    massa urna, et sodales tortor consequat eget. Morbi cursus
+                    lectus nec ultricies varius. Nam et ex sit amet ipsum
+                    consequat tempus. Vivamus dapibus ligula eget faucibus
+                    semper. Maecenas mattis augue non ante dignissim rhoncus.
+                    Praesent sagittis porta quam, id bibendum mauris ullamcorper
+                    quis. Nam eget arcu ultricies, ultricies lorem id, aliquam
+                    nulla. Fusce convallis malesuada tellus a mattis. Duis vitae
+                    fringilla nulla. Morbi laoreet purus consequat mollis
+                    dapibus.
                 </p>
             </div>
         );
