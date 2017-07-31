@@ -1,14 +1,30 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
+import { shape, string } from 'prop-types';
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+class App extends PureComponent {
+    static propTypes = {
+        user: shape({
+            userName: string
+        })
+    };
+
+    static defaultProps = {
+        user: {
+            firstName: 'A User'
+        }
+    };
+
     render() {
+        const { user } = this.props;
         return (
             <div className="App">
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
-                    <h2>Welcome to new fed world!</h2>
+                    <h2>
+                        Welcome to new fed world!{user.firstName}
+                    </h2>
                 </div>
                 <p className="App-intro">
                     Fusce eu magna in quam congue laoreet. In eget felis

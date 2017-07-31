@@ -4,5 +4,12 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const user = {
+    firstName: 'Miguel',
+    lastName: 'Julio',
+    userName: 'fitfab',
+    password: 'one2one'
+};
+
+ReactDOM.render(<App props={user} />, document.getElementById('root'));
 registerServiceWorker();
