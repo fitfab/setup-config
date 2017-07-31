@@ -10,12 +10,6 @@ class App extends PureComponent {
         })
     };
 
-    static defaultProps = {
-        user: {
-            firstName: 'A User'
-        }
-    };
-
     render() {
         const { user } = this.props;
         return (
@@ -23,7 +17,7 @@ class App extends PureComponent {
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <h2>
-                        Welcome to new fed world!{user.firstName}
+                        Welcome to new fed world!{user.userName}
                     </h2>
                 </div>
                 <p className="App-intro">

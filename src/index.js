@@ -11,5 +11,5 @@ const user = {
     password: 'one2one'
 };
 
-ReactDOM.render(<App props={user} />, document.getElementById('root'));
+ReactDOM.render(<App user={user} />, document.getElementById('root'));
 registerServiceWorker();

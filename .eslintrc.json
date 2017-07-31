@@ -11,11 +11,16 @@
         "import"
     ],
     "globals": {
+        "window": true,
         "document": true,
-        "window": true
+        "navigator": true,
+        "it": true,
+        "URL": true,
+        "fetch": true
     },
     "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "react/prefer-stateless-function": [0, { "ignorePureComponents": true }]
+        "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],
+        "react/require-default-props": [0]
     }
 }
